@@ -1,0 +1,21 @@
+#output {
+  color: black;
+  margin: 20px;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  line-height: 0;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 1px 5px;
+  border-radius: 10px;
+}
+
+.p1 {
+  margin-top: 20%;
+}
+
+.p2 {
+  margin-top: 5%;
+}

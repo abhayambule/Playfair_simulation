@@ -1,0 +1,22 @@
+.aimContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.aText {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 25px;
+}
+
+.psText {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 25px;
+}

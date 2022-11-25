@@ -1,0 +1,85 @@
+.model {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #0d0c1d;
+  position: fixed;
+  color: black;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+}
+/* .model p {
+  margin: 0;
+  line-height: 0;
+} */
+
+.model_Container {
+  margin: 50px;
+  min-width: 400px;
+  min-height: 400px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+.header h2 {
+  margin-right: 20px;
+}
+
+.body {
+  min-height: 250px;
+}
+.footer {
+  margin-right: 50px;
+  margin-left: 90px;
+}
+
+.button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  border-radius: 4px;
+  padding: 11px 28px;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #e12309;
+}
+.cancel_btn {
+  margin-right: 10px;
+  opacity: 0.7;
+}
+.next_btn {
+  margin-left: 10px;
+  background-color: #098be1;
+  opacity: 0.7;
+}
+.cancel_btn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.next_btn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.cancel_btn:active {
+  color: black;
+  background-color: white;
+  border: 2px solid red;
+}
+.next_btn:active {
+  color: black;
+  background-color: white;
+  border: 2px solid #098be1;
+}
