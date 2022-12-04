@@ -1,0 +1,22 @@
+.theoryContainer {
+  display: block;
+  margin: 40px 250px;
+  text-align: left;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.theoryContainer p {
+  font-size: 18px;
+}
+
+.theoryButton {
+  display: flex;
+  margin: 30px 50px;
+  flex-direction: row;
+  height: 40px;
+  align-items: center;
+}
+.theoryButton button {
+  margin-left: 40px;
+}

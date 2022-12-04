@@ -200,7 +200,7 @@ const Playfair = () => {
   };
 
   return (
-    <div className="maindiv">
+    <div style={{ marginTop: 200 }} className="maindiv">
       <p>PlayFair Cipher</p>
       <div className="header_input">
         <p> Enter Plain Text : </p>

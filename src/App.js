@@ -36,7 +36,7 @@ function App() {
           <Route path="/" element={<Aim />} />
           <Route path="/theory" element={<Theory />} />
           <Route path="/execution" element={<Playfair />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about-us" element={<About />} />
         </Routes>
       </Router>
     </React.Fragment>
